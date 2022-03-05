@@ -1977,3 +1977,32 @@ h1, h2, h3, h4, h5,
   background-color: #4285f4 !important;
   border-color: #4285f4 !important;
   color: #fff; }
+
+/* Custom style */
+
+.logo {
+  height: 40px;
+}
+
+.check-lists-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line-cont {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+
+.line {
+  height: 2.5px;
+  width: 100px;
+}
+
+.line-2 {
+  height: 2.5px;
+  width: 45px;
+}
