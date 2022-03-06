@@ -1954,6 +1954,22 @@ h1, h2, h3, h4, h5,
 
 .justify { text-align: justify; }
 
+.objectif-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.objectif-element {
+  max-width: 330px;
+}
+
+@media (max-width: 770px) {
+  .objectif-element {
+    max-width: none;
+  }
+}
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
