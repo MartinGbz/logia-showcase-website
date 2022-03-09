@@ -1977,8 +1977,17 @@ ul, p { margin-top: 0 !important; }
     position: absolute;
     top: 20px;
     width: 2px;
-		z-index: -1;
+		z-index: 0;
 }
+
+.uk-timeline .uk-timeline-item:last-child::before {
+  z-index: -1;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-icon {
+  z-index: 2;
+}
+
 
 .uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
 		margin-top: 20px;
@@ -2064,6 +2073,10 @@ ul, p { margin-top: 0 !important; }
 /* Custom style */
 
 .logo {
+  height: 60px;
+}
+
+.centrale-logo {
   height: 40px;
 }
 
