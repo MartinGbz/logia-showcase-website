@@ -2025,6 +2025,16 @@ ul, p { margin-top: 0 !important; }
   }
 }
 
+@media (max-width: 1200px) {
+  .objectif-container {
+    justify-content: space-around;
+  }
+
+  .objectif-element {
+    max-width: 400px;
+  }
+}
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
