@@ -2102,3 +2102,36 @@ ul, p { margin-top: 0 !important; }
   height: 2.5px;
   width: 45px;
 }
+
+.logo-contact-container:hover {
+  cursor: pointer;
+}
+
+.icon-contact-size {
+  font-size: 2rem !important;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.logo-contact-container:hover .text-contact {
+  color: #0263c4 !important;
+}
+
+@media (max-width: 770px) {
+  .container-contact {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo-contact-container {
+    margin-bottom: 150px !important;
+  }
+}
+
+.link-navbar {
+  scroll-margin-top: 100px;
+}
+
