@@ -1982,6 +1982,7 @@ ul, p { margin-top: 0 !important; }
 
 .uk-timeline .uk-timeline-item:last-child::before {
   z-index: -1;
+  display: none;
 }
 
 .uk-timeline .uk-timeline-item .uk-timeline-icon {
