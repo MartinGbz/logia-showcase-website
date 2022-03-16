@@ -28,6 +28,8 @@ ul, p { margin-top: 0 !important; }
 
 .mb-0 { margin-bottom: 0; }
 
+.mt-50 { margin-top: 50px; }
+
 .bg-light {
   background: #f6f6f6 !important; }
 
@@ -2134,9 +2136,5 @@ ul, p { margin-top: 0 !important; }
   .logo-contact-container {
     margin-bottom: 150px !important;
   }
-}
-
-.link-navbar {
-  scroll-margin-top: 100px;
 }
 
