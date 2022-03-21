@@ -2088,6 +2088,7 @@ ul, p { margin-top: 0 !important; }
 .check-lists-cont {
   display: flex;
   justify-content: space-evenly;
+  font-size: 20px;
 }
 
 .line-cont {
