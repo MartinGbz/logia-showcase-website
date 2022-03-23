@@ -2089,6 +2089,7 @@ ul, p { margin-top: 0 !important; }
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
+  flex-direction: row;
 }
 
 .line-cont {
@@ -2219,3 +2220,20 @@ ul, p { margin-top: 0 !important; }
   }
 }
 
+@media (max-width: 768px) {
+  .check-lists-cont {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .check-lists-cont {
+    font-size: 20px;
+    flex-direction: column;
+  }
+
+  .check-lists-cont ul {
+    margin-bottom: 0 !important;
+  }
+}
