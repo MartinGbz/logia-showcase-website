@@ -2146,6 +2146,9 @@ ul, p { margin-top: 0 !important; }
   border-radius: 3%;
 }
 
+.image-ig2i-container {
+  margin-top: 80px;
+}
 
 .main-title {
   margin-top: 0;
@@ -2162,6 +2165,10 @@ ul, p { margin-top: 0 !important; }
   .main-title {
     margin-top: 0px;
   }
+
+  .image-ig2i-container {
+    margin-top: 0;
+  }
 }
 
 .header-container {
@@ -2171,6 +2178,8 @@ ul, p { margin-top: 0 !important; }
   flex-direction: row;
   padding-right: 15px;
   padding-left: 15px;
+  max-width: 1400px;
+  column-gap: 80px;
 }
 
 .img-header {
@@ -2208,7 +2217,7 @@ ul, p { margin-top: 0 !important; }
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 440px) {
   .img-header {
     max-width: 350px;
   }
