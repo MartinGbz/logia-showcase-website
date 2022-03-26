@@ -1,0 +1,22 @@
+name: Build and Deploy
+on:
+  push:
+    branches: [master]
+  
+jobs:
+  deploy:
+    name: Deploy 🚀 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+      - name: Sync files to hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: pedagogie-logia.centralelille.fr
+          username: pedagogie-logia
+          password: ${{ secrets.ftp_password }}
+          server-dir: ./site/
+          port: 22
+
+      
