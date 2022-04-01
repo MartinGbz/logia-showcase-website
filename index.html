@@ -65,16 +65,23 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                 <li><a href="#home-section" class="nav-link">Accueil</a></li>
                 <li class="has-children">
-                  <a href="#presentation" class="nav-link">Présentation</a>
+                  <a href="#presentation" class="nav-link" style="padding-left: 4px;">Présentation</a>
                   <ul class="dropdown arrow-top">
                     <li><a href="#presentation" class="nav-link">Équipe</a></li>
-                    <li><a href="#projet" class="nav-link">Projet</a></li>
+                    <li><a href="#ecole-section" class="nav-link">École</a></li>
                   </ul>
                 </li>
-                <li><a href="#objectifs" class="nav-link">Objectifs</a></li>
-                <li><a href="#testimonials-section" class="nav-link">École</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                <li><a href="https://centralelille.fr" target="_blank"><img class="centrale-logo" src="./images/centrale_lille.png"/></a></li>
+                <li class="has-children">
+                  <a href="#projet" class="nav-link">Projet</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#projet" class="nav-link">Contexte</a></li>
+                    <li><a href="#objectifs" class="nav-link">Objectifs</a></li>
+                    <li><a href="#features-section" class="nav-link">Planning</a></li>
+                  </ul>
+                </li>
+                <li><a href="#our-team-section" class="nav-link">Membres</a></li>
+                <li><a href="#contact-section" class="nav-link" style="padding-left: 4px;">Contact</a></li>
+                <li><a href="https://centralelille.fr" target="_blank" style="padding: 0px 20px;"><img class="centrale-logo" src="./images/centrale_lille.png"/></a></li>
               </ul>
             </nav>
           </div>
@@ -89,7 +96,7 @@
 
     <div class="site-section" style="overflow: hidden; display:flex; justify-content: center;">
       <div class="header-container">
-        <img src="images/header.svg" alt="Image" class="img-fluid img-header">
+        <img src="images/header.png" alt="Image" class="img-fluid img-header">
         <div class="mb-4" style="padding: 0 15px;">
           <h1 class="main-title">Prenez le virage de la green technologie</h1>
           <p class="mb-5">Équipe de 6 élèves-ingénieurs à la recherche de partenaire pour un projet de fin d'études</p>
@@ -108,7 +115,7 @@
           </div>
         </div>
         <div class="row mb-5">
-          <div class="partial-team">
+          <div class="partial-team" >
             <div class="col-lg-6" data-aos="fade-up">
               <img src="images/team.png" alt="Image" class="img-fluid">
             </div>
@@ -117,10 +124,12 @@
               <p class="mb-4 justify">LogIA est une équipe de 6 élèves-ingénieurs en quatrième année de l’<b>IG2I</b>, école du groupe <b>Centrale Lille Institut</b>. Notre envie commune : être acteur des innovations futures. La combinaison des spécialités « <b>Ingénierie des Systèmes Industriels Innovants</b> » et « <b>Systèmes d’Informations</b> » au sein de notre équipe nous permet d’être polyvalents, complémentaires et flexibles sur tout type de problématique.</p>
             </div>
           </div>
-          <div class="col-lg-6 ml-auto pl-lg-6 mt-50">
-            <h2 class="text-black mb-4 h3 font-weight-bold">École</h2>
-            <p class="mb-4 justify">L’IG2I a pour mission de former les ingénieurs de demain dans le domaine du génie informatique et industriel. L’innovation et les nouvelles technologies sont donc l’ADN de la formation. Intelligence Artificielle, Big Data, Cybersécurité, IoT ou encore Industrie 4.0 sont autant de <b>sujets d’avenir</b> pour lesquels nous bénéficions de l’expertise d’enseignants-chercheurs et de professionnels. Enfin, les compétences humaines, managériales ainsi que l’ouverture à l'international font également partie des qualités développées dans la formation.</p>
-            <p class="mb-4 justify">Cette formation en 5 ans est particulièrement <b>adaptée aux besoins des entreprises</b>. En effet, elle permet aux futurs ingénieurs d’appréhender le monde professionnel, au travers de plusieurs périodes de <b>stages conventionnés</b> et de <b>nombreux projets</b> répartis tout au long du cursus. Ils sont ainsi aptes à faire face aux défis technologiques à venir.</p>
+          <div class="col-lg-6 ml-auto pl-lg-6" id="ecole-section">
+            <div class="mt-50">
+              <h2 class="text-black mb-4 h3 font-weight-bold">École</h2>
+              <p class="mb-4 justify">L’IG2I a pour mission de former les ingénieurs de demain dans le domaine du génie informatique et industriel. L’innovation et les nouvelles technologies sont donc l’ADN de la formation. Intelligence Artificielle, Big Data, Cybersécurité, IoT ou encore Industrie 4.0 sont autant de <b>sujets d’avenir</b> pour lesquels nous bénéficions de l’expertise d’enseignants-chercheurs et de professionnels. Enfin, les compétences humaines, managériales ainsi que l’ouverture à l'international font également partie des qualités développées dans la formation.</p>
+              <p class="mb-4 justify">Cette formation en 5 ans est particulièrement <b>adaptée aux besoins des entreprises</b>. En effet, elle permet aux futurs ingénieurs d’appréhender le monde professionnel, au travers de plusieurs périodes de <b>stages conventionnés</b> et de <b>nombreux projets</b> répartis tout au long du cursus. Ils sont ainsi aptes à faire face aux défis technologiques à venir.</p>
+            </div>
           </div>
           <div class="col-lg-6 image-ig2i-container" data-aos="fade-up">
             <img src="images/ig2i.jpeg" alt="IG2I" class="img-fluid image-ig2i">
